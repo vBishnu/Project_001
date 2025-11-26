@@ -2,13 +2,22 @@
   "name": "project_001",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vBishnu/Project_001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vBishnu/Project_001/issues"
+  },
+  "homepage": "https://github.com/vBishnu/Project_001#readme",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",
