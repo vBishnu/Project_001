@@ -1,15 +1,15 @@
 module.exports = (sequelize, DataTypes) => {
     const Blog = sequelize.define("blog", {
-      title: {
+      name: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      subTitle: {
+      surName: {
         type: DataTypes.STRING,
         allowNull : false
       },
-      description: {
-        type: DataTypes.TEXT,
+      contact: {
+        type: DataTypes.INTEGER,
         allowNull:false
       },
 

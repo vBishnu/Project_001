@@ -12,22 +12,6 @@ app.get('/',(req,res)=>{
    res.render(`home`)
 })
 
-//About page
-app.get('/about',(req,res)=>{
-    res.render('about')
-})
-
-
-//Blogs page
-app.get('/blogs',(req,res)=>{
-    res.render('blogs')
-})
-
-// Contact page
-app.get('/contact',(req,res)=>{
-    res.render('contact')
-})
-
 
 const PORT = 3000
 app.listen(PORT,()=>{
